@@ -129,14 +129,10 @@ variable "db_geo_redundant_backup_enabled" {
 }
 
 variable "client_id" {
-  default = "68ae1b45-fe21-4222-900a-bcaba5d5b0f9"
 }
 variable "client_secret" {
-  default = "WZp8Q~1O1YlInFvNLl-kXkprpY~7kec-leZwjdra"
 }
 variable "subscription_id" {
-  default = "a2b28c85-1948-4263-90ca-bade2bac4df4"
 }
 variable "tenant_id" {
-  default = "30fe8ff1-adc6-444d-ba94-1238894df42c"
 }
