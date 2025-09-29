@@ -105,3 +105,7 @@ module "compute" {
   admin_password     = var.admin_password
   database_fqdn      = module.database.database_fqdn
 }
+
+module "aks" {
+  source = "./modules/aks"
+}
