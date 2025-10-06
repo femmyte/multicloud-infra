@@ -89,3 +89,7 @@ module "compute" {
   app_security_group_id = module.security.app_security_group_id
   database_endpoint     = module.database.database_endpoint
 }
+
+module "eks" {
+  source = "./modules/eks"
+}

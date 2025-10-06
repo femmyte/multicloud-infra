@@ -91,3 +91,8 @@ module "compute" {
   app_instance_count  = var.app_instance_count
   database_private_ip = module.database.database_private_ip_address
 }
+
+module "eks" {
+  source = "./modules/eks"
+  
+}
